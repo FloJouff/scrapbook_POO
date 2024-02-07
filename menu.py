@@ -38,17 +38,6 @@ def main():
             break
         else:
             print("Réponse non valide")
-# cat_url = get_categories_links()
-# print(cat_url)
-# for url in cat_url:
-#     cat = Category(url)
-#     print(cat.get_books_url())
-#     for book_url in cat.get_books_url():
-#         book = Book(book_url)
-#         book.scrap_book()
-#         print(book.book_data)
-#         add_data_to_csv(book.book_data["Categorie"], book.book_data)
-
 
 if __name__ == "__main__":
     main()
